@@ -199,10 +199,6 @@ public final class Excluder implements TypeAdapterFactory, Cloneable {
           return true;
       }
 
-      if (isAnonymousOrLocal(clazz)) {
-          return true;
-      }
-
       return false;
   }
 
